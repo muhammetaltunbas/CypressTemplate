@@ -1,5 +1,5 @@
 var loginControlText = "#flash_notice"
-var successLoginText = "Signed in!"
+var successLoginText = "Signed in!"//test
 
 
 class FlightPage {
