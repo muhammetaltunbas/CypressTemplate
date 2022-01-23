@@ -25,7 +25,9 @@ When('User enters {string} and {string} and clicks sign in button', (username, p
 Then('User goes flightpage', () => {
     fPage.checkLoginFunction()
 })
+
 Then('User can not login in', () => {
     lPage.checkWrongLoginCridentials()
+    
 
 })

@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2022-01-22T23:34:36.213Z",
-    "end": "2022-01-22T23:34:45.305Z",
-    "duration": 9092,
+    "start": "2022-01-23T18:27:53.668Z",
+    "end": "2022-01-23T18:28:03.802Z",
+    "duration": 10134,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1f225273-9f12-45e6-80e4-e2b5fd408b43",
+      "uuid": "7e2c7ea5-7580-4e53-ac51-d9f4a0585df2",
       "title": "",
       "fullFile": "cypress/integration/BDD/agileTravel.feature",
       "file": "cypress/integration/BDD/agileTravel.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cd4c6565-e0f7-4177-8fb1-9fcf7de77bb6",
+          "uuid": "b4f15cce-35cb-4788-86ec-6a37ec7228d6",
           "title": "Checking login functionality for travel.agileway.net",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Checking login functionality for proper login credential (example #1)",
               "fullTitle": "Checking login functionality for travel.agileway.net Checking login functionality for proper login credential (example #1)",
               "timedOut": null,
-              "duration": 4118,
+              "duration": 4443,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "0ac9ff09-bc41-488e-a363-62a36fe72caf",
-              "parentUUID": "cd4c6565-e0f7-4177-8fb1-9fcf7de77bb6",
+              "uuid": "796332e5-3247-4388-a600-9e6f938db459",
+              "parentUUID": "b4f15cce-35cb-4788-86ec-6a37ec7228d6",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Checking login functionality for wrong login credential (example #1)",
               "fullTitle": "Checking login functionality for travel.agileway.net Checking login functionality for wrong login credential (example #1)",
               "timedOut": null,
-              "duration": 1273,
+              "duration": 1388,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "1046f33e-ae90-48f0-a866-e0769c5b0b61",
-              "parentUUID": "cd4c6565-e0f7-4177-8fb1-9fcf7de77bb6",
+              "uuid": "2b37d0d0-e9a8-4ccf-9a24-8f12b62834ae",
+              "parentUUID": "b4f15cce-35cb-4788-86ec-6a37ec7228d6",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Checking login functionality for wrong login credential (example #2)",
               "fullTitle": "Checking login functionality for travel.agileway.net Checking login functionality for wrong login credential (example #2)",
               "timedOut": null,
-              "duration": 1032,
+              "duration": 1228,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "e0cbb280-4f62-4a22-b553-aea1ff103628",
-              "parentUUID": "cd4c6565-e0f7-4177-8fb1-9fcf7de77bb6",
+              "uuid": "09a5e02d-cfec-43d9-9a22-2a218ad3f0db",
+              "parentUUID": "b4f15cce-35cb-4788-86ec-6a37ec7228d6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0ac9ff09-bc41-488e-a363-62a36fe72caf",
-            "1046f33e-ae90-48f0-a866-e0769c5b0b61",
-            "e0cbb280-4f62-4a22-b553-aea1ff103628"
+            "796332e5-3247-4388-a600-9e6f938db459",
+            "2b37d0d0-e9a8-4ccf-9a24-8f12b62834ae",
+            "09a5e02d-cfec-43d9-9a22-2a218ad3f0db"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6423,
+          "duration": 7059,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
