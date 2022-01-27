@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run",
+    "test": "npx cypress run",
     "runFeature": "npm run test -- --spec cypress/integration/BDD/agileTravel.feature --headed --browser chrome",
     "runAllFeature": "npm run test -- --spec cypress/integration/BDD/*.feature --headed --browser chrome",
     "openCypress": "npx cypress open",
