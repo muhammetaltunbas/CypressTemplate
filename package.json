@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/cypress run",
     "runFeature": "npm run test -- --spec cypress/integration/BDD/agileTravel.feature --headed --browser chrome",
     "runAllFeature": "npm run test -- --spec cypress/integration/BDD/*.feature --headed --browser chrome",
-    "openCypress": "./node_modules/.bin/cypress open",
+    "openCypress": "npx cypress open",
     "runAsTag": "npx cypress-tags run -e TAGS='@ProperLogin' --headed --browser chrome",
     "runTestsandRecord": "npx cypress run --record --key cac571ce-979b-467e-b53f-2ad4bad5a5d9",
     "recordMochawesome": "npm run test -- --reporter mochawesome"

@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 var usernameBox="#username"
 var passwordBox="#password"
 var loginBtn="[value*='Sign']"

@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 var loginControlText = "#flash_notice"
 var successLoginText = "Signed in!"
 
