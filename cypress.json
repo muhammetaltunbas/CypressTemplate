@@ -1,5 +1,5 @@
 {
-    "testFiles": "**/*.feature",
+    
     "projectId": "5ersy7",
     "reporter": "mochawesome"
 
